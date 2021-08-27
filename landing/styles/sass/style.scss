@@ -6,9 +6,9 @@ body {
 
 //** LIST
 // 0 - UNITS
-// 1 - HEADER
-// 2 - START CONTENT
-//
+// 1 - COOKIES
+// 2 - HEADER
+// 3 - START CONTENT
 //
 //
 //
@@ -79,14 +79,52 @@ body {
   }
 }
 
-// 1 HEADER //
+// 1 COOKIES //
+
+.cookies {
+  padding: 22px 100px 22px 100px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #212834;
+  z-index: 999;
+
+  &__text {
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 19px;
+  }
+
+  &__btn {
+    padding: 15px 50px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 0.5px solid #FFFFFF;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+  }
+}
+
+// 2 HEADER //
 
 .header {
   display: flex;
   align-items: center;
 
   &__logo {
-    margin-right: 146px;
+    margin-right: 136px;
   }
 
   &__login {
@@ -117,7 +155,7 @@ body {
   }
 }
 
-// 2 START CONTENT //
+// 3 START CONTENT //
 
 .start-content {
   padding-top: 40px;
