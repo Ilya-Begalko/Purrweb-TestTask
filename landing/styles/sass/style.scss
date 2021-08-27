@@ -10,7 +10,7 @@ body {
 // 2 - HEADER
 // 3 - START CONTENT
 // 4 - PARTNERSHIP
-//
+// 5 - MISSION
 //
 //
 //
@@ -306,8 +306,51 @@ body {
     line-height: 33px;
     text-decoration-line: underline;
     color: #FFFFFF;
+
     &:hover {
       opacity: 0.5;
     }
+  }
+}
+
+// 5 MISSION //
+
+.mission {
+  padding: 176px 0 470px 0;
+
+  &__cover {
+    position: relative;
+    max-width: 358px;
+    margin-left: auto;
+    margin-right: 63px;
+  }
+
+  &__title {
+    position: relative;
+    max-width: 358px;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: -70%;
+      right: -10%;
+      width: 285px;
+      height: 285px;
+      background-image: url('../../images/background-blur/mission-blur.svg');
+      background-position: center;
+      background-repeat: no-repeat;
+      z-index: -999;
+    }
+  }
+
+  &__text {
+    margin-top: 23px;
+    max-width: 320px;
+  }
+
+  &__img {
+    position: absolute;
+    top: 0;
+    left: -310%;
   }
 }

@@ -260,4 +260,39 @@ body {
   opacity: 0.5;
 }
 
+.mission {
+  padding: 176px 0 470px 0;
+}
+.mission__cover {
+  position: relative;
+  max-width: 358px;
+  margin-left: auto;
+  margin-right: 63px;
+}
+.mission__title {
+  position: relative;
+  max-width: 358px;
+}
+.mission__title:before {
+  content: "";
+  position: absolute;
+  top: -70%;
+  right: -10%;
+  width: 285px;
+  height: 285px;
+  background-image: url("../../images/background-blur/mission-blur.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -999;
+}
+.mission__text {
+  margin-top: 23px;
+  max-width: 320px;
+}
+.mission__img {
+  position: absolute;
+  top: 0;
+  left: -310%;
+}
+
 /*# sourceMappingURL=style.css.map */
