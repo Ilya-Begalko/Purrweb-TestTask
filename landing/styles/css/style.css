@@ -223,4 +223,41 @@ body {
   margin-right: 0;
 }
 
+.partnership {
+  padding: 60px 0;
+}
+.partnership__cover {
+  padding: 0 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 81px;
+}
+.partnership__block {
+  padding: 64px 55px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 22px;
+}
+.partnership__text {
+  flex-basis: 100%;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  color: #FFFFFF;
+}
+.partnership__link {
+  display: inline-block;
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+.partnership__link:hover {
+  opacity: 0.5;
+}
+
 /*# sourceMappingURL=style.css.map */
