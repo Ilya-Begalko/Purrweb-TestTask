@@ -321,4 +321,22 @@ body {
   max-width: 318px;
 }
 
+.integration {
+  padding: 205px 0;
+}
+.integration__cover {
+  display: flex;
+  justify-content: space-between;
+}
+.integration__info-block {
+  margin-top: 90px;
+}
+.integration__title {
+  max-width: 500px;
+}
+.integration__text {
+  margin-top: 23px;
+  max-width: 395px;
+}
+
 /*# sourceMappingURL=style.css.map */

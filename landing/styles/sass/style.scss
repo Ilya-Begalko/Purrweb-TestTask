@@ -12,7 +12,7 @@ body {
 // 4 - PARTNERSHIP
 // 5 - MISSION
 // 6 - SCANNER
-//
+// 7 - INTEGRATION
 //
 //
 //
@@ -387,5 +387,28 @@ body {
     margin-top: 23px;
     max-width: 318px;
   }
+}
 
+// 7 INTEGRATION //
+
+.integration {
+  padding: 205px 0;
+
+  &__cover {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__info-block {
+    margin-top: 90px;
+  }
+
+  &__title {
+    max-width: 500px;
+  }
+
+  &__text {
+    margin-top: 23px;
+    max-width: 395px;
+  }
 }
