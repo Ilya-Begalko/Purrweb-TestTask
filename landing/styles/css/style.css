@@ -339,4 +339,53 @@ body {
   max-width: 395px;
 }
 
+.qr-code {
+  position: relative;
+  padding-top: 237px;
+  background: linear-gradient(180deg, #000000 0, rgba(0, 0, 0, 0) 300px, #000000 600px) no-repeat left/50%, url("../../images/background-images/qr-code-left.jpg") no-repeat left top/50%, url("../../images/background-images/qr-code-right.jpg") no-repeat right top/50%;
+}
+.qr-code::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 95px;
+  width: 148px;
+  height: 84px;
+  background-image: url("../../images/nightlife.svg");
+}
+.qr-code__cover {
+  padding: 0 80px;
+}
+.qr-code__left {
+  display: inline-block;
+  margin: 317px 80px 0 0;
+}
+.qr-code__title {
+  max-width: 315px;
+}
+.qr-code__text {
+  margin-top: 23px;
+  max-width: 315px;
+}
+.qr-code__bottons {
+  display: flex;
+  margin-top: 58px;
+}
+.qr-code__btn {
+  margin-right: 28px;
+}
+.qr-code__btn:last-child {
+  margin-right: 0;
+}
+.qr-code__right {
+  display: inline-block;
+  position: relative;
+}
+.qr-code__img-bottom {
+  position: absolute;
+  top: 341px;
+  right: -80px;
+  transform: translateX(100%);
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -13,7 +13,7 @@ body {
 // 5 - MISSION
 // 6 - SCANNER
 // 7 - INTEGRATION
-//
+// 8 - QR-CODE
 //
 //
 //
@@ -410,5 +410,68 @@ body {
   &__text {
     margin-top: 23px;
     max-width: 395px;
+  }
+}
+
+// 8 QR-CODE //
+
+.qr-code {
+  position: relative;
+  padding-top: 237px;
+  background: linear-gradient(180deg, #000000 0, rgba(0, 0, 0, 0) 300px, #000000 600px) no-repeat (left / 50%),
+  url('../../images/background-images/qr-code-left.jpg') no-repeat (left top / 50%),
+  url('../../images/background-images/qr-code-right.jpg') no-repeat (right top / 50%);
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 95px;
+    width: 148px;
+    height: 84px;
+    background-image: url('../../images/nightlife.svg');
+  }
+
+  &__cover {
+    padding: 0 80px;
+  }
+
+  &__left {
+    display: inline-block;
+    margin: 317px 80px 0 0;
+  }
+
+  &__title {
+    max-width: 315px;
+  }
+
+  &__text {
+    margin-top: 23px;
+    max-width: 315px;
+  }
+
+  &__bottons {
+    display: flex;
+    margin-top: 58px;
+  }
+
+  &__btn {
+    margin-right: 28px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__right {
+    display: inline-block;
+    position: relative;
+  }
+
+  &__img-bottom {
+    position: absolute;
+    top: 341px;
+    right: -80px;
+    transform: translateX(100%);
   }
 }
