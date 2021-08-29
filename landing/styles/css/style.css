@@ -388,4 +388,68 @@ body {
   transform: translateX(100%);
 }
 
+.generate {
+  padding: 384px 0 250px 0;
+  overflow: hidden;
+}
+.generate__top {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.generate__top::before {
+  content: "";
+  position: absolute;
+  top: -500px;
+  left: -90px;
+  width: 1440px;
+  height: 1586px;
+  background: url("../../images/background-blur/generate-blur.svg") no-repeat center;
+  z-index: -999;
+}
+.generate__top::after {
+  content: "";
+  position: absolute;
+  top: 110px;
+  width: 1940px;
+  height: 496px;
+  background: url("../../images/notab-text.svg") no-repeat center;
+  z-index: -998;
+}
+.generate__top-img {
+  position: relative;
+}
+.generate__top-img::before {
+  position: absolute;
+  top: 196px;
+  right: -148px;
+  width: 104px;
+  height: 74px;
+  content: "";
+  background: url("../../images/arrow.svg") center no-repeat;
+}
+.generate__top-img::after {
+  position: absolute;
+  top: 284px;
+  right: -285px;
+  content: "Scan QR-code";
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+.generate__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+}
+.generate__title {
+  max-width: 400px;
+}
+.generate__text {
+  max-width: 300px;
+}
+
 /*# sourceMappingURL=style.css.map */
