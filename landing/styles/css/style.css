@@ -295,4 +295,30 @@ body {
   left: -310%;
 }
 
+.scanner {
+  padding-top: 466px;
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 40%, #000000 80%), url("../../images/background-images/scanner.jpg") no-repeat center 0/cover;
+}
+.scanner__cover {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.scanner__img {
+  margin-right: 50px;
+}
+.scanner__img:last-child {
+  margin-right: 0;
+}
+.scanner__right {
+  margin: 0 80px 70px 0;
+}
+.scanner__title {
+  max-width: 358px;
+}
+.scanner__text {
+  margin-top: 23px;
+  max-width: 318px;
+}
+
 /*# sourceMappingURL=style.css.map */

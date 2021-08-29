@@ -11,7 +11,7 @@ body {
 // 3 - START CONTENT
 // 4 - PARTNERSHIP
 // 5 - MISSION
-//
+// 6 - SCANNER
 //
 //
 //
@@ -353,4 +353,39 @@ body {
     top: 0;
     left: -310%;
   }
+}
+
+// 6 SCANNER //
+.scanner {
+  padding-top: 466px;
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 40%, #000000 80%),
+  url('../../images/background-images/scanner.jpg') no-repeat (center 0 / cover);
+
+  &__cover {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  &__img {
+    margin-right: 50px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__right {
+    margin: 0 80px 70px 0;
+  }
+
+  &__title {
+    max-width: 358px;
+  }
+
+  &__text {
+    margin-top: 23px;
+    max-width: 318px;
+  }
+
 }
