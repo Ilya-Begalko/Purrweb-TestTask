@@ -18,7 +18,7 @@ body {
 // 10 - ORDERING
 // 11 - PHONE
 // 12 - CONTACT
-//
+// 13 - FOOTER
 // **//
 
 
@@ -692,6 +692,7 @@ body {
     background: #FFFFFF;
     border: 1px solid #5C5C5C;
     border-radius: 10px;
+    font-family: 'Noto Sans', sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
@@ -731,6 +732,110 @@ body {
 
     &:hover {
       background-color: rgba(255, 255, 255, 0.3);
+    }
+  }
+}
+
+// 13 FOOTER //
+
+.download {
+  margin-bottom: 150px;
+
+  &__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  &__bottons {
+    display: flex;
+    justify-content: center;
+    margin-top: 33px;
+  }
+
+  &__app-store {
+    margin-right: 60px;
+    width: 259px;
+    height: 82px;
+    background-size: 259px 82px;
+  }
+
+  &__google-play {
+    width: 293px;
+    height: 82px;
+    background-size: 293px 82px;
+  }
+}
+
+.footer {
+  position: relative;
+  padding: 45px 0 86px 0;
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 637px;
+    height: 561px;
+    background: url('../../images/background-blur/footer-blur.svg') no-repeat center;
+    z-index: -999;
+  }
+
+  &__cover {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__left {
+    position: relative;
+  }
+
+  &__img {
+    display: block;
+    margin-bottom: 16px;
+  }
+
+  &__right {
+    text-align: right;
+  }
+
+  &__text {
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+
+    &_mail {
+      font-weight: 700;
+      text-decoration: none;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+
+    &_copyright {
+      margin-top: 19px;
+      font-weight: 700;
+    }
+
+    &_link {
+      font-weight: 700;
+      text-decoration: none;
+
+      &:hover {
+        opacity: 0.5;
+      }
+
+      &:nth-child(2) {
+        margin-top: 25px;
+      }
     }
   }
 }

@@ -568,6 +568,7 @@ body {
   background: #FFFFFF;
   border: 1px solid #5C5C5C;
   border-radius: 10px;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
@@ -603,6 +604,92 @@ body {
 }
 .contact__btn:hover {
   background-color: rgba(255, 255, 255, 0.3);
+}
+
+.download {
+  margin-bottom: 150px;
+}
+.download__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-align: center;
+}
+.download__bottons {
+  display: flex;
+  justify-content: center;
+  margin-top: 33px;
+}
+.download__app-store {
+  margin-right: 60px;
+  width: 259px;
+  height: 82px;
+  background-size: 259px 82px;
+}
+.download__google-play {
+  width: 293px;
+  height: 82px;
+  background-size: 293px 82px;
+}
+
+.footer {
+  position: relative;
+  padding: 45px 0 86px 0;
+}
+.footer::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 637px;
+  height: 561px;
+  background: url("../../images/background-blur/footer-blur.svg") no-repeat center;
+  z-index: -999;
+}
+.footer__cover {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__left {
+  position: relative;
+}
+.footer__img {
+  display: block;
+  margin-bottom: 16px;
+}
+.footer__right {
+  text-align: right;
+}
+.footer__text {
+  display: block;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+.footer__text_mail {
+  font-weight: 700;
+  text-decoration: none;
+}
+.footer__text_mail:hover {
+  opacity: 0.5;
+}
+.footer__text_copyright {
+  margin-top: 19px;
+  font-weight: 700;
+}
+.footer__text_link {
+  font-weight: 700;
+  text-decoration: none;
+}
+.footer__text_link:hover {
+  opacity: 0.5;
+}
+.footer__text_link:nth-child(2) {
+  margin-top: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
